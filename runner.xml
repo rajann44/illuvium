@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Illuvium API Automation" parallel="methods" thread-count="2">
+    <parameter name="baseURL" value="https://api.binance.com"></parameter>
+    <parameter name="tickerPath" value="/api/v3/ticker/24hr"></parameter>
+    <parameter name="exchangeInfoPath" value="/api/v3/exchangeInfo?symbol="></parameter>
+    <test name = "Test Execution">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="testScripts"/>
+        </packages>
+    </test>
+</suite>
