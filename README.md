@@ -16,7 +16,7 @@ This project contains demo tests of REST API
 ## Demo
 ![Screen-Recording-2022-03-19-at-1](https://user-images.githubusercontent.com/60035342/159111416-c40cf615-d3e7-4d9a-ab9a-cd6bcdb6bd8d.gif)
 
-## Report
+## Custom Reports
 ![Screenshot 2022-03-19 at 4 49 11 AM](https://user-images.githubusercontent.com/60035342/159096589-34fd2b3c-caa0-43a8-8a4a-1c49d8e54c88.png)
 
 ## Prerequisite
