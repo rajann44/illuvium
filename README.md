@@ -7,7 +7,7 @@ This project contains demo tests of REST API
 1. Programming Language: **Java**
 2. Based on **POJO & Databinding**
 3. Report Generation using **ExtentReports**
-4. Parallel execution supported
+4. **Parallel Test** execution
 5. Maven for easy dependency management
 6. TestNG as Testing framework
 7. Logging Support
