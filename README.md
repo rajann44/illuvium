@@ -20,7 +20,7 @@ This project contains demo tests of REST API
 
 1. IDE: IntelliJ Idea or Eclipse
 2. OpenJDK 11: https://jdk.java.net/archive/
-3. Maven
+3. Maven: https://maven.apache.org/download.cgi
 
 ## Installation / Running Test
 1. Clone the repo
