@@ -1,5 +1,6 @@
 package pojo;
 
+/*******JSON Mapping to Pojo Class for api/v3/exchangeInfo********/
 public class Filter {
 
     private String filterType;

@@ -1,5 +1,6 @@
 package pojo;
 
+/*******JSON Mapping to Pojo Class for /api/v3/ticker/24hr********/
 public class Ticker {
 
     private String symbol;

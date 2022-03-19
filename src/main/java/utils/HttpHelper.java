@@ -6,6 +6,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
+/*******Helper class to make HttpRequest using Java inbuilt Library********/
 public class HttpHelper {
 
     static HttpResponse<String> response;

@@ -2,6 +2,7 @@ package pojo;
 
 import java.util.List;
 
+/*******JSON Mapping to Pojo Class for api/v3/exchangeInfo********/
 public class ExchangeInfo {
 
     private String timezone;

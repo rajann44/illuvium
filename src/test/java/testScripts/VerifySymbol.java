@@ -28,15 +28,22 @@ public class VerifySymbol extends TestListeners {
             "matches the symbol name (field symbol from the same object)")
     public void verifyBaseQuoteAsset(String baseURL, String tickerPath, String exchangeInfoPath) throws JsonProcessingException {
 
+        //Read value from JSON and store in Pojo Object of Ticker
         tickerObjMap = objectMapper.readValue(HttpHelper.makeGETRequest(baseURL+tickerPath), new TypeReference<>(){});
         extentTest.get().info("Json Parsing completed for Ticker");
 
+        //Created a random number within the range of JSON size
         getRandomNumBasedOnResponseSize = (int) (Math.random()*tickerObjMap.size());
+
+        //Fetched Symbol at the index of random number
         getRandomSymbol = tickerObjMap.get(getRandomNumBasedOnResponseSize).getSymbol();
         extentTest.get().info("Random Symbol Selected:" + getRandomSymbol);
+
+        //Read value from JSON Response and store in Pojo Object of ExchangeInfo
         exchangeInfoObjMap = objectMapper.readValue(HttpHelper.makeGETRequest(baseURL+exchangeInfoPath+getRandomSymbol), new TypeReference<>(){});
         extentTest.get().info("Json Parsing completed for Exchange Info");
 
+        //Compare if baseAsset + quoteAsset is equal to symbol or not
         Assert.assertEquals(exchangeInfoObjMap.getSymbols().get(0).getSymbol(),
                 exchangeInfoObjMap.getSymbols().get(0).getBaseAsset()
                         +exchangeInfoObjMap.getSymbols().get(0).getQuoteAsset(),

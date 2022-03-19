@@ -13,6 +13,7 @@ import org.testng.ITestResult;
 import java.util.Calendar;
 import java.util.Date;
 
+/*******Overridden the default method of ITestListener for report generation********/
 public class TestListeners implements ITestListener {
 
     private static ExtentReports extent = ExtentReportManager.createInstance();

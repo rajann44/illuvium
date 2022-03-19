@@ -7,6 +7,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import java.io.File;
 import java.util.Date;
 
+/*******Custom report Helper********/
 public class ExtentReportManager {
 
     private static ExtentReports extent;

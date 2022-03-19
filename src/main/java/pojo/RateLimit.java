@@ -1,7 +1,6 @@
 package pojo;
 
-import javax.annotation.processing.Generated;
-
+/*******JSON Mapping to Pojo Class for api/v3/exchangeInfo********/
 public class RateLimit {
 
     private String rateLimitType;
