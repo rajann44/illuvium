@@ -19,7 +19,8 @@ This project contains demo tests of REST API
 ## Prerequisite
 
 1. IDE: IntelliJ Idea or Eclipse
-3. OpenJDK 11: https://jdk.java.net/archive/
+2. OpenJDK 11: https://jdk.java.net/archive/
+3. Maven: https://maven.apache.org/download.cgi
 
 ## Installation / Running Test
 1. Clone the repo
