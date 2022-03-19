@@ -10,7 +10,7 @@ This project contains demo tests of REST API
 4. **Parallel Test** execution
 5. Maven for easy dependency management
 6. TestNG as Testing framework
-7. Logging Support
+7. **Logging Support**
 8. Atomic test cases
 
 ## Demo
